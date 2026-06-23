@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="akash-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#3b82f6" />
+      <stop offset="100%" stopColor="#a855f7" />
+    </linearGradient>
+  </defs>
+
+  <path d="M 22 40 L 7 50 L 22 60" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 78 40 L 93 50 L 78 60" fill="none" stroke="#a855f7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 50 15 L 30 75 M 50 15 L 70 75 M 36 58 L 64 58" fill="none" stroke="url(#akash-gradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 30 75 L 20 85 M 70 75 L 80 85" fill="none" stroke="url(#akash-gradient)" stroke-width="4" stroke-linecap="round" />
+  <circle cx="50" cy="15" r="4.5" fill="#fff" />
+  <circle cx="20" cy="85" r="3" fill="#3b82f6" />
+  <circle cx="80" cy="85" r="3" fill="#a855f7" />
+</svg>
