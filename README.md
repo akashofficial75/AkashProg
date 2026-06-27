@@ -1,21 +1,20 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-AkashProg Portfolio
+# Run and deploy your AI Studio app
 
-A modern and professionally crafted portfolio platform designed to showcase projects, skills, achievements, and digital creations through a clean, immersive, and responsive experience.
+This contains everything you need to run your app locally.
 
-Built with a focus on performance, aesthetics, and usability, featuring a dynamic project showcase, secure Firebase-powered admin dashboard, real-time content management, custom drag-and-drop sorting, and seamless responsiveness across all devices.
+View your app in AI Studio: https://ai.studio/apps/d7ed50b0-e594-4453-936e-ce820386debe
 
-✨ Live Links
+## Run Locally
 
-🌐 Website: https://akashprog.netlify.app/
+**Prerequisites:**  Node.js
 
 
-💻 GitHub Repository: https://github.com/akashofficial75/AkashProg
-
-🛠 Tech Stack
-
-React • TypeScript • Tailwind CSS • Firebase • Firestore • Framer Motion
-
-Crafted to transform ideas into elegant digital experiences where design, functionality, and performance work together seamlessly.
-
-Developed By AkashProg 🚀
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

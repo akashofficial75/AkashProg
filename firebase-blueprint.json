@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "project": {
+      "title": "Project",
+      "description": "A portfolio project",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "thumbnail": { "type": "string" },
+        "category": { "type": "string" },
+        "liveLink": { "type": "string" },
+        "githubLink": { "type": "string" },
+        "techStack": { "type": "array" },
+        "createdAt": { "type": "object" }
+      },
+      "required": ["title", "description"]
+    },
+    "app": {
+      "title": "App",
+      "description": "An application built by the user",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "thumbnail": { "type": "string" },
+        "category": { "type": "string" },
+        "liveLink": { "type": "string" },
+        "githubLink": { "type": "string" },
+        "techStack": { "type": "array" },
+        "createdAt": { "type": "object" }
+      },
+      "required": ["title", "description"]
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "A blog post",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "thumbnail": { "type": "string" },
+        "tags": { "type": "array" },
+        "createdAt": { "type": "object" }
+      },
+      "required": ["title", "content"]
+    },
+    "skill": {
+      "title": "Skill",
+      "description": "A technical skill",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "category": { "type": "string" },
+        "progress": { "type": "number" }
+      },
+      "required": ["name", "category"]
+    },
+    "social": {
+      "title": "Social",
+      "description": "A social media link",
+      "type": "object",
+      "properties": {
+        "platform": { "type": "string" },
+        "url": { "type": "string" }
+      },
+      "required": ["platform", "url"]
+    }
+  },
+  "firestore": {
+    "projects/{projectId}": {
+      "schema": "project",
+      "description": "Portfolio projects"
+    },
+    "apps/{appId}": {
+      "schema": "app",
+      "description": "Applications"
+    },
+    "blogs/{blogId}": {
+      "schema": "blog",
+      "description": "Blog posts"
+    },
+    "skills/{skillId}": {
+      "schema": "skill",
+      "description": "Skills"
+    },
+    "socials/{socialId}": {
+      "schema": "social",
+      "description": "Social media links"
+    }
+  }
+}
+
